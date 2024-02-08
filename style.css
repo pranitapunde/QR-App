@@ -26,6 +26,7 @@
     align-items: center;
     justify-content: space-evenly;
     flex-direction: column;
+    margin: 20px;
 }
 .top{
     width: 70%;
@@ -47,7 +48,7 @@
 }
 .headline h4{
     color: rgb(123, 187, 26);
-    font-weight: 700;
+    font-weight: 650;
 }
 form{
     width: 100%;
@@ -90,19 +91,44 @@ form input{
 
     .main-container{
         width: 100%;
-        height: 100vh;
+        height: auto;
     }
     .QR-container{
         width:100%;
-        height: auto;
-
+       height: 550px;
+        display: flex;
+        justify-content: space-around;
     }
     .top{
         width: 100%;
         height: auto;
         padding-block: 30px;
     }
-
+    .headline{
+        width: 100%;
+        height: auto; 
+    }
+    .buttom-enter img{
+        width: 200px;
+    }
+    .headline h4{
+        font-size: 15px;
+    }
+    form{
+        align-items: center;
+    }
+    form button{
+        width: 50%;
+        height: 35px;
+        font-size: 14px;
+    }
+    form input{
+        font-size: 14px;
     }
     
+
+
+  
     
+    
+}
